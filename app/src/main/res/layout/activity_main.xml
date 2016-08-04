@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ff8888"
+    tools:context="com.nightfarmer.satellitebutton.MainActivity">
+
+    <!--<Button-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<ImageView-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--android:src="@mipmap/ic_launcher"-->
+        <!--android:layout_marginTop="80dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<com.nightfarmer.satellitebutton.SatelliteView-->
+        <!--android:id="@+id/satelliteView"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+    <!--<com.nightfarmer.satellitebutton.SatelliteView-->
+        <!--android:id="@+id/satelliteView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+
+    <!--<com.nightfarmer.satellitebutton.SatelliteView-->
+        <!--android:id="@+id/satelliteView3"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--</com.nightfarmer.satellitebutton.SatelliteView>-->
+
+    <!--<com.nightfarmer.satellitebutton.SatelliteView-->
+        <!--android:id="@+id/satelliteView4"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--</com.nightfarmer.satellitebutton.SatelliteView>-->
+
+    <!--<com.nightfarmer.satellitebutton.SatelliteView-->
+        <!--android:id="@+id/satelliteView5"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--</com.nightfarmer.satellitebutton.SatelliteView>-->
+
+    <com.nightfarmer.satellitebutton.SatelliteView
+        android:id="@+id/satelliteView6"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.nightfarmer.satellitebutton.SatelliteView>
+
+    <com.nightfarmer.satellitebutton.SatelliteView
+        android:id="@+id/satelliteView7"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.nightfarmer.satellitebutton.SatelliteView>
+
+    <com.nightfarmer.satellitebutton.SatelliteView
+        android:id="@+id/satelliteView8"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.nightfarmer.satellitebutton.SatelliteView>
+
+    <com.nightfarmer.satellitebutton.SatelliteView
+        android:id="@+id/satelliteView9"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.nightfarmer.satellitebutton.SatelliteView>
+</RelativeLayout>
