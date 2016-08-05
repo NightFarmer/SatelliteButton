@@ -123,19 +123,19 @@ public class SatelliteView extends RelativeLayout {
         partToggle(360, 0);
     }
 
-    private void partToggle(int jiaodu, int start_jiaodu) {
+    private void partToggle(int angleMax, int startAngle) {
         int count = adapter.getCount();
         AnimatorSet animatorSetTotal = new AnimatorSet();
         ArrayList<Animator> animators = new ArrayList<>();
         for (int i = 0; i < count; i++) {
-            int xx = 0;
-            if (jiaodu == 360) {
-                xx = jiaodu / count;
+            int angle;
+            if (angleMax == 360) {
+                angle = angleMax / count;
             } else {
-                xx = jiaodu / (count - 1);
+                angle = angleMax / (count - 1);
             }
-            float x = (float) (Math.cos((xx * i + start_jiaodu) / 180f * Math.PI) * Radius);
-            float y = (float) (Math.sin((xx * i + start_jiaodu) / 180f * Math.PI) * Radius);
+            float x = (float) (Math.cos((angle * i + startAngle) / 180f * Math.PI) * Radius);
+            float y = (float) (Math.sin((angle * i + startAngle) / 180f * Math.PI) * Radius);
 
             View view = menuItemList.get(i);
             AnimatorSet animatorSet = new AnimatorSet();
